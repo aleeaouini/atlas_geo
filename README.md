@@ -1,16 +1,44 @@
-# atlas_geo_alee
+i create this  Atlas Géographique
+Application mobile cross-platform développée avec Flutter permettant de découvrir les informations géographiques des pays du monde.
+ Aperçu de l'Application
+L'application Atlas Géographique est un atlas interactif qui présente les informations essentielles de 9 pays :
 
-A new Flutter project.
+🇫🇷 France
+🇹🇳 Tunisie
+🇧🇷 Brésil
+🇮🇹 Italie
+🇨🇦 Canada
+🇦🇺 Australie
+🇩🇪 Allemagne
+🇪🇸 Espagne
+🇿🇦 Afrique du Sud
 
-## Getting Started
+Fonctionnalités
+ Écran d'Accueil (WelcomePage)
 
-This project is a starting point for a Flutter application.
+Interface d'accueil avec image de globe terrestre
+Message de bienvenue
+Bouton de navigation vers la liste des pays
 
-A few resources to get you started if this is your first Flutter project:
+ Liste des Pays (CountriesPage)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Affichage de tous les pays sous forme de liste
+Miniatures des drapeaux
+Menu latéral (Drawer) avec :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Navigation vers l'accueil
+Page "À propos"
+Option de quitter l'application
+
+
+Chargement dynamique des données depuis JSON
+
+ Détails du Pays (CountryDetailPage)
+
+Drapeau en grand format
+Informations détaillées :
+
+Capitale : Ville principale
+Population : Nombre d'habitants
+Superficie : Étendue territoriale en km²
+Langue(s) officielle(s) : Langues parlées
